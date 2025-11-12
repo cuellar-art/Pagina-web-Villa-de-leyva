@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tour de Villa de Leyva — Itinerario</title>
+  <style>
+    :root{--accent:#5C6BC0;--muted:#6b7280;--bg:#f7f7fb}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#111}
+    header{background:linear-gradient(90deg,#fff 0%,#f3f5ff 100%);padding:28px 20px;border-bottom:1px solid #e6e9f2}
+    .container{max-width:980px;margin:0 auto;padding:20px}
+    h1{margin:0 0 6px;font-size:26px}
+    p.lead{margin:0;color:var(--muted)}
+    .card{background:#fff;border-radius:12px;padding:18px;margin-top:18px;box-shadow:0 6px 18px rgba(18,23,38,0.06)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--accent);color:#fff;font-weight:600}
+    dl{margin:0}
+    dt{font-weight:700}
+    dd{margin:4px 0 12px;color:var(--muted)}
+    .itinerary{margin-top:12px}
+    .day{border-left:4px solid var(--accent);padding:12px 16px;margin-bottom:12px;background:#fbfcff;border-radius:8px}
+    .time{font-weight:700;color:var(--accent)}
+    ul{margin:8px 0 0;padding-left:18px}
+    footer{margin:28px 0 80px;text-align:center;color:var(--muted)}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}}
+    /* small helpers */
+    .muted{color:var(--muted)}
+    .center{display:flex;gap:10px;align-items:center}
+    .cta{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+    pre{background:#0f1724;color:#e6eef8;padding:12px;border-radius:8px;overflow:auto}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container center">
+      <div style="flex:1">
+        <h1>Tour de Villa de Leyva</h1>
+        <p class="lead">Duración: 2 días / 1 noche • Todo incluido</p>
+      </div>
+      <div style="text-align:right">
+        <div class="badge">COP 750.000 por persona</div>
+        <div class="muted" style="font-size:12px;margin-top:6px">Precio indicado: todo incluido</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <section>
+        <div class="card">
+          <h2>Incluye</h2>
+          <ul>
+            <li>Transporte privado ida y vuelta Bogotá – Villa de Leyva – Bogotá</li>
+            <li>Alojamiento: 1 noche (habitación doble)</li>
+            <li>Alimentación completa (2 desayunos, 2 almuerzos, 1 comida y 2 refrigerios)</li>
+            <li>Entrada a sitios turísticos</li>
+            <li>Guía turístico y acompañamiento permanente</li>
+            <li>Seguro de viaje y asistencia médica</li>
+          </ul>
+        </div>
+
+        <div class="card itinerary">
+          <h2>Itinerario</h2>
+
+          <div class="day">
+            <strong>Día 1</strong>
+            <p class="muted">Salida desde Bogotá y llegada a Villa de Leyva</p>
+            <p><span class="time">05:30 a.m.</span> — Salida desde Bogotá (transporte privado, guía, refrigerio en ruta)</p>
+            <p><span class="time">08:30 a.m.</span> — Llegada a Villa de Leyva y desayuno típico en restaurante local</p>
+            <p><span class="time">09:30 a.m.</span> — Check-in en el hotel (Hotel Campanario de la Villa o similar)</p>
+            <p><span class="time">10:30 a.m. - 1:00 p.m.</span> — City Tour guiado: Plaza Mayor, Iglesia del Carmen, Museo del Fósil, Casa de Nariño</p>
+            <p><span class="time">1:30 p.m.</span> — Almuerzo típico en "El Solar de la Guaca"</p>
+            <p><span class="time">3:30 p.m. - 6:00 p.m.</span> — Visita a la Casa de Terracota</p>
+            <p><span class="time">6:30 p.m.</span> — Tiempo libre / spa / piscina</p>
+            <p><span class="time">8:00 p.m.</span> — Cena temática + fogata</p>
+          </div>
+
+          <div class="day">
+            <strong>Día 2</strong>
+            <p class="muted">Aventura y regreso a Bogotá</p>
+            <p><span class="time">7:30 a.m.</span> — Desayuno tipo buffet en el hotel</p>
+            <p><span class="time">8:30 a.m. - 11:30 a.m.</span> — Pozos Azules y Desierto de La Candelaria (cuatrimotos o 4x4)</p>
+            <p><span class="time">12:00 p.m.</span> — Almuerzo campestre en viñedo Ain Karim (opciones gourmet)</p>
+            <p><span class="time">2:00 p.m.</span> — Check-out y regreso a Bogotá</p>
+            <p class="muted"><span class="time">5:00 p.m.</span> — Llegada estimada a Bogotá</p>
+          </div>
+
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h3>Detalles rápidos</h3>
+          <dl>
+            <dt>Punto de encuentro</dt>
+            <dd>Donde se fije el punto</dd>
+            <dt>Habitación</dt>
+            <dd>Doble (compartida)</dd>
+            <dt>Transporte</dt>
+            <dd>Bus turístico privado</dd>
+          </dl>
+
+          <div style="margin-top:12px">
+            <a class="cta" href="#itinerario">Ver itinerario</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Cómo usar este archivo</h3>
+          <ol>
+            <li>Guarda este código como <code>tour-villa-de-leyva.html</code> en tu proyecto de Visual Studio Code.</li>
+            <li>Abre el archivo en VS Code y, si tienes la extensión <strong>Live Server</strong>, haz clic en "Go Live" para ver la página en tu navegador.</li>
+            <li>Puedes editar el texto, cambiar precios o añadir imágenes en la carpeta del proyecto.</li>
+          </ol>
+          <p class="muted" style="font-size:13px">¿Quieres que también genere un archivo README.md o un ZIP listo para descargar? Puedo hacerlo.</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <small>Generado automáticamente a partir del PDF subido — Tour de Villa de Leyva.</small>
+    </footer>
+  </main>
+</body>
+</html>
